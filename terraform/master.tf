@@ -14,10 +14,10 @@ module "master" {
   #   "Learn Tutorial" = "AFT"
   # }
 
-  # change_management_parameters = {
-  #   change_requested_by = "HashiCorp Learn"
-  #   change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
-  # }
+  change_management_parameters = {
+    change_requested_by = "Fabio Henrique"
+    change_reason       = "Imported Master Account into AFT"
+  }
 
   # custom_fields = {
   #   group = "non-prod"
