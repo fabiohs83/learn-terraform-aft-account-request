@@ -10,18 +10,18 @@ module "master" {
     SSOUserLastName           = "Silva"
   }
 
-  # account_tags = {
-  #   "Learn Tutorial" = "AFT"
-  # }
+  account_tags = {
+    "Learn Tutorial" = "AFT"
+  }
 
   change_management_parameters = {
     change_requested_by = "Fabio Henrique"
     change_reason       = "Imported Master Account into AFT"
   }
 
-  # custom_fields = {
-  #   group = "non-prod"
-  # }
+  custom_fields = {
+    group = "non-prod"
+  }
 
   # account_customizations_name = "sandbox"
 }
