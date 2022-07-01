@@ -23,5 +23,5 @@ module "master" {
     group = "fabio-dev"
   }
 
-  account_customizations_name = "dev"
+  account_customizations_name = "sandbox"
 }
